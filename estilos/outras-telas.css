@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 599px) {
+    
+    div#tudo {
+        width: 70vw;
+    }
+    input#iemail {
+        width: 45vw;
+       }
+       input#isenha {
+           width: 45vw;
+       }
+       img#login {
+        width: 70vw;
+        
+        height: 40vh;
+    }
+
+    }
+
+
+@media screen and (min-width:600px) and (max-width: 1024px) {
+    
+div#tudo {
+    width: 60vw;
+}
+
+input#iemail {
+ width: 31vw;
+}
+input#isenha {
+    width: 31vw;
+}
+
+img#login {
+    width: 60vw;
+  
+    height: 40vh;
+}
+
+}
+
+@media screen and (min-width:1024px) {
+
+    
+
+    main{
+       display: inline-block;
+       position: relative;
+       float: left;
+       width:50%;
+    }
+
+    div#foto {
+        display: inline-block;
+        position: absolute;
+        
+        }
+
+    div#tudo {
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+    margin: 150px 0px 100px 400px;
+  
+    }
+    img#login {
+        width: 400px;
+        height: 390px;
+        border-radius: 0px 10px 10px 0px;
+        
+    }
+    input#iemail {
+        width: 200px;
+       }
+    input#isenha {
+           width: 200px;
+       }
+            
+        
+    }

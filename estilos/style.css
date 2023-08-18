@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body {
+    background-image:linear-gradient(to bottom, rgba(116, 0, 184, 0.781), rgba(0, 0, 255, 0.425) );
+    background-attachment: fixed;
+
+}
+
+
+div#tudo {
+    background-color: white;
+    border-radius: 10px;
+    width: 65vw;
+    margin: auto;
+    height: 95vh;
+    margin-top: 30px;
+    
+}
+img#login {
+    width: 70vw;
+    border-radius: 10px 10px 0px 0px;
+    height: 40vh;
+}
+h1 {
+    text-align: center;
+}
+
+p {
+    margin:10px
+}
+div.email {
+    background-color:  rgba(117, 0, 184, 0.767);
+    padding: 8px;
+    border-radius: 5px;
+    text-align: justify;
+    width: 95%;
+    margin: auto;
+   
+}
+
+
+.botao {
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+}
+
+input#iemail {
+    width:40vw;
+    padding: 6px;
+    border-radius: 5px;
+    position: absolute;
+    display: inline-block;
+    background-color: rgba(173, 173, 255, 0.582);
+    
+}
+
+input#isenha {
+    width:40vw;
+    padding: 6px;
+    border-radius: 5px;
+    position: absolute;
+    display: inline-block;
+    background-color: rgba(173, 173, 255, 0.582);
+    margin-left: 3px;
+}
+
+
+
+
+input.entrar {
+    width: 95%;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.entrar:hover {
+    background-color: aqua;
+}
+label.fundo {
+    
+    display: inline-block;
+    padding: 6px;
+    border-radius: 5px;
+    position: relative
+}
