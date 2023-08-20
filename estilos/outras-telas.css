@@ -1,24 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width:600px)and (max-width:1023px) {
 
-    form {
-        width: 60vw;
-        height: 58vh;
-    }
-    div#tudo {
-        width: 60vw;
-        height: 58vh;
-        margin-top: 30%;
-        
-    }
-
-    .entrar {
-        width: 57vw;
-    }
-}
-
-    
 
 
 @media screen and (min-width:1024px) {
