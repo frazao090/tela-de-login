@@ -2,12 +2,16 @@
 
 @media screen and (min-width:350px) and (max-width:900px){
 
+    body {
+        margin-top: 10px;
+    }
+
     form {
         display: inline-block;
         width: 60vw;
         height: 340px;
         position: absolute;
-        margin-left: 100px;
+        margin-left: 150px;
         
         
         
@@ -20,6 +24,7 @@
         float: right;
         margin: auto;
         border-radius: 0px 10px 10px 0px;
+      
         
     
     }
