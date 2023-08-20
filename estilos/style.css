@@ -8,7 +8,7 @@ body {
 }
 form {
    width: 65vw;
-   height: 65vh;
+   height: 57vh;
    background-color: white;
    margin: auto;
    background: url(..//predio.jpg) no-repeat;
@@ -18,10 +18,10 @@ form {
    }
 div#tudo {
     display: block;
-    margin-top: 39%;
+    margin-top: 223px;
     position: absolute;
     width: 65vw;
-    height: 63vh;
+    height: 57vh;
     background-color: white;
     background-size: cover;
     border-radius: 0px 0px 10px 10px;
@@ -34,7 +34,7 @@ h1 {
 }
 p{
     text-align: justify;
-    margin: 20px 35px 30px 25px;
+    margin: 20px 15px 30px 15px;
 }
 
 #iemail, #isenha{
