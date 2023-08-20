@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+
+form {
+    display: inline-block;
+    width: 67vw;
+    height: 60vh;
+    position: relative;
+    margin: 120px 100px 100px 260px;
+    
+    
+    
+}
+div#tudo {
+    display: inline-block;
+    width: 33.5vw;
+    height: 60vh;
+    position: absolute;
+    margin: auto;
+    border-radius: 10px 0px 0px 10px;
+
+}
+.entrar {
+    width: 31vw;
+   
+}
+.back {
+    width: 31vw;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+#iemail, #isenha {
+    width: 23vw;
+   
+}
+
