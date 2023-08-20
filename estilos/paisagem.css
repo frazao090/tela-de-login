@@ -1,5 +1,60 @@
 @charset "UTF-8";
 
+@media screen and (min-width:600px) {
+
+    form {
+        display: inline-block;
+        width: 50vw;
+        height: 358px;
+        position: absolute;
+        margin-left: 100px;
+        
+        
+        
+    }
+    div#tudo {
+        display: inline-block;
+        width: 25vw;
+        height: 358px;
+        position: relative;
+        float: right;
+        margin: auto;
+        border-radius: 0px 10px 10px 0px;
+        
+    
+    }
+    .entrar {
+        width: 24vw;
+       
+    }
+    .back {
+        width: 24vw;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+    
+    #iemail, #isenha {
+        width: 11vw;
+       
+    }
+    h1 {
+        text-align: center;
+        margin-top: 3px;
+        font-size: 25px;
+        
+    }
+    p{
+        text-align: justify;
+        margin: 2px 5px 3px 5px;
+        font-size: 14px;
+    }
+
+
+
+}
+
+@media screen and (min-width:1024px) {
+
 form {
     display: inline-block;
     width: 67vw;
@@ -35,3 +90,4 @@ div#tudo {
    
 }
 
+}
