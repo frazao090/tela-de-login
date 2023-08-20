@@ -13,12 +13,13 @@ form {
    margin: auto;
    background: url(..//predio.jpg) no-repeat;
    background-size: cover;
+   background-attachment: fixed;
    border-radius: 10px;
    
    }
 div#tudo {
     display: block;
-    margin-top: 223px;
+    margin-top: 200px;
     position: absolute;
     width: 65vw;
     height: 57vh;
