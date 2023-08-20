@@ -3,7 +3,7 @@
 body {
     background-image:linear-gradient(to bottom, rgba(116, 0, 184, 0.781), rgba(0, 0, 255, 0.425) );
     background-attachment: fixed;
-    margin-top: 30px;
+    margin-top: 50px;
 
 }
 form {
@@ -19,13 +19,14 @@ form {
    }
 div#tudo {
     display: block;
-    margin-top: 200px;
+    margin-top: 180px;
     position: absolute;
     width: 65vw;
-    height: 57vh;
+    height: 63vh;
     background-color: white;
     background-size: cover;
     border-radius: 0px 0px 10px 10px;
+    
 }
 
 h1 {
