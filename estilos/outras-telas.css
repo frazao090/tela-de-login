@@ -4,17 +4,17 @@
 
     form {
         width: 60vw;
-        height: 60vh;
+        height: 58vh;
     }
     div#tudo {
         width: 60vw;
-        height: 50vh;
-        margin-top: 35%;
+        height: 58vh;
+        margin-top: 30%;
         
     }
 
     .entrar {
-        width: 58vw;
+        width: 57vw;
     }
 }
 

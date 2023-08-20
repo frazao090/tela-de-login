@@ -8,7 +8,7 @@ body {
 }
 form {
    width: 65vw;
-   height: 95vh;
+   height: 65vh;
    background-color: white;
    margin: auto;
    background: url(..//predio.jpg) no-repeat;
@@ -18,10 +18,10 @@ form {
    }
 div#tudo {
     display: block;
-    margin-top: 65vw;
+    margin-top: 39%;
     position: absolute;
     width: 65vw;
-    height: 53vh;
+    height: 63vh;
     background-color: white;
     background-size: cover;
     border-radius: 0px 0px 10px 10px;
