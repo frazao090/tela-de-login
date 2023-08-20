@@ -3,84 +3,70 @@
 body {
     background-image:linear-gradient(to bottom, rgba(116, 0, 184, 0.781), rgba(0, 0, 255, 0.425) );
     background-attachment: fixed;
-
-}
-
-
-div#tudo {
-    background-color: white;
-    border-radius: 10px;
-    width: 65vw;
-    margin: auto;
-    height: 95vh;
     margin-top: 30px;
-    
+
 }
-img#login {
-    width: 70vw;
-    border-radius: 10px 10px 0px 0px;
-    height: 40vh;
+form {
+   width: 65vw;
+   height: 95vh;
+   background-color: white;
+   margin: auto;
+   background: url(..//predio.jpg) no-repeat;
+   background-size: cover;
+   border-radius: 10px;
+   
+   }
+div#tudo {
+    display: block;
+    margin-top: 65vw;
+    position: absolute;
+    width: 65vw;
+    height: 53vh;
+    background-color: white;
+    background-size: cover;
+    border-radius: 0px 0px 10px 10px;
 }
+
 h1 {
     text-align: center;
+    margin-top: 20px;
+    
 }
-
-p {
-    margin:10px
-}
-div.email {
-    background-color:  rgba(117, 0, 184, 0.767);
-    padding: 8px;
-    border-radius: 5px;
+p{
     text-align: justify;
-    width: 95%;
-    margin: auto;
+    margin: 20px 35px 30px 25px;
+}
+
+#iemail, #isenha{
+    display: inline;
+    background-color: rgb(204, 204, 255);
+    width: 40vw;
+    border-radius: 5px;
    
+    
+}
+
+.fundo {
+    display: inline-block;
+    text-align: justify;
+    margin: 10px;
+    padding: 0px 3px 0px 3px;
+    
+    
+}
+.back {
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin: 5px 10px 1px 10px;
+    
 }
 
 
-.botao {
+.botoes {
     text-align: center;
-    margin: 5px 0px 5px 0px;
-}
-
-input#iemail {
-    width:40vw;
-    padding: 6px;
-    border-radius: 5px;
-    position: absolute;
-    display: inline-block;
-    background-color: rgba(173, 173, 255, 0.582);
     
 }
-
-input#isenha {
-    width:40vw;
-    padding: 6px;
-    border-radius: 5px;
-    position: absolute;
-    display: inline-block;
-    background-color: rgba(173, 173, 255, 0.582);
-    margin-left: 3px;
-}
-
-
-
-
-input.entrar {
-    width: 95%;
-    border-radius: 5px;
-    padding: 7px;
-    cursor: pointer;
-}
-
-.entrar:hover {
-    background-color: aqua;
-}
-label.fundo {
-    
-    display: inline-block;
-    padding: 6px;
-    border-radius: 5px;
-    position: relative
+.entrar {
+    margin-top: 5px;
+    width: 61vw;
 }

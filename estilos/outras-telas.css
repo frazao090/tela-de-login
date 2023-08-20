@@ -1,85 +1,59 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 599px) {
-    
+@media screen and (min-width:600px)and (max-width:1023px) {
+
+    form {
+        width: 60vw;
+        height: 60vh;
+    }
     div#tudo {
-        width: 70vw;
-    }
-    input#iemail {
-        width: 45vw;
-       }
-       input#isenha {
-           width: 45vw;
-       }
-       img#login {
-        width: 70vw;
+        width: 60vw;
+        height: 50vh;
+        margin-top: 35%;
         
-        height: 40vh;
     }
 
+    .entrar {
+        width: 58vw;
     }
+}
 
-
-@media screen and (min-width:600px) and (max-width: 1024px) {
     
-div#tudo {
-    width: 60vw;
-}
 
-input#iemail {
- width: 31vw;
-}
-input#isenha {
-    width: 31vw;
-}
-
-img#login {
-    width: 60vw;
-  
-    height: 40vh;
-}
-
-}
 
 @media screen and (min-width:1024px) {
-
-    
-
-    main{
-       display: inline-block;
-       position: relative;
-       float: left;
-       width:50%;
-    }
-
-    div#foto {
+    form {
         display: inline-block;
-        position: absolute;
+        width: 67vw;
+        height: 60vh;
+        position: relative;
+        margin: 100px 100px 100px 250px;
         
-        }
-
+        
+        
+    }
     div#tudo {
-    display: inline-block;
-    background-color: white;
-    border-radius: 10px;
-    width: 50vw;
-    height: 50vh;
-    text-align: center;
-    margin: 150px 0px 100px 400px;
-  
+        display: inline-block;
+        width: 33.5vw;
+        height: 60vh;
+        position: absolute;
+        margin: auto;
+        border-radius: 10px 0px 0px 10px;
+
     }
-    img#login {
-        width: 400px;
-        height: 390px;
-        border-radius: 0px 10px 10px 0px;
-        
+    .entrar {
+        width: 31vw;
+       
     }
-    input#iemail {
-        width: 200px;
-       }
-    input#isenha {
-           width: 200px;
-       }
-            
-        
+    .back {
+        width: 31vw;
+        margin: auto;
+        margin-bottom: 5px;
     }
+
+    #iemail, #isenha {
+        width: 23vw;
+       
+    }
+    
+}
