@@ -12,20 +12,23 @@ form {
    height: 400px;
    background-color: white;
    margin: auto;
-   background: url(..//predio.jpg) no-repeat;
+   background: url(..//predio2.jpg) no-repeat;
    background-size: cover;
    background-position: center bottom;
    display: block;
    border-radius: 10px;
    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);   
+   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);   
+   transition: height 0.5s, width 0.5s;
+   transition-timing-function: ease;
+
    }
 div#tudo {
     display: block;
     margin-top: 180px;
     position: absolute;
     width: 65%;
-    height: 63%;
+    height: 390px;
     background-color: white;
     background-size: cover;
     border-radius: 0px 0px 10px 10px;
@@ -55,8 +58,13 @@ p{
     background-color: rgb(204, 204, 255);
     width: 40vw;
     border-radius: 5px;
-   
     
+}
+#iemail:hover {
+    background-color: white;
+}
+#isenha:hover {
+    background-color: white;
 }
 
 .fundo {
@@ -72,6 +80,9 @@ p{
     border-radius: 5px;
     margin: 5px 10px 1px 10px;
     
+}
+.back:focus-within {
+    background-color: rgba(140, 1, 158, 0.842);
 }
 
 

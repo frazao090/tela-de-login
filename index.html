@@ -14,7 +14,7 @@
     
        
             
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
                    
                     <div id="tudo">
                         <h1>Login</h1>
@@ -22,12 +22,12 @@
                             
                             <div class="back">
                                 <label class="fundo" for="iemail"><img id="login" src="..//tela-de-login/login.png"></label>
-                                <input type="email" name="email" id="iemail" placeholder="Seu E-mail" required><br>
+                                <input type="email" name="email" id="iemail" placeholder="Seu E-mail" required autocomplete="email"><br>
                             </div>
                            
                                 <div class="back">
                                     <label class="fundo" for="isenha"><img id="senha" src="..//tela-de-login/lock.png"></label>
-                                    <input type="password" name="senha" id="isenha" placeholder="Sua senha" required minlength="8">
+                                    <input type="password" name="senha" id="isenha" placeholder="Sua senha" required minlength="8" autocomplete="current-password">
                                 </div>
                                 
                                
