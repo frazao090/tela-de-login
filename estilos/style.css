@@ -9,7 +9,7 @@ body {
 form {
    display: block;
    width: 65%;
-   height: 430px;
+   height: 435px;
    background-color: white;
    margin: auto;
    background: url(..//predio2.jpg) no-repeat;
@@ -28,7 +28,7 @@ div#tudo {
     margin-top: 180px;
     position: absolute;
     width: 65%;
-    height: 420px;
+    height: 425px;
     background-color: white;
     background-size: cover;
     border-radius: 0px 0px 10px 10px;
