@@ -6,22 +6,24 @@
 @media screen and (min-width:1024px) {
     form {
         display: inline-block;
-        width: 67vw;
-        height: 60vh;
-        position: relative;
-        margin: 120px 100px 100px 260px;
-        
-        
-        
+        width: 70%;
+        height: 500px;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
     }
+        
+        
+        
+    
     div#tudo {
         display: inline-block;
-        width: 33.5vw;
-        height: 60vh;
-        position: absolute;
-        margin: auto;
-        border-radius: 10px 0px 0px 10px;
-
+        width: 50%;
+        height: 500px;
+        position: relative;
+        
+        border-radius: 0px 10px 10px 0px;
     }
     .entrar {
         width: 31vw;

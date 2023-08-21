@@ -2,31 +2,42 @@
 
 body {
     background-image:linear-gradient(to bottom, rgba(116, 0, 184, 0.781), rgba(0, 0, 255, 0.425) );
-    background-attachment: fixed;
+   background-attachment: fixed;
     margin-top: 50px;
 
 }
 form {
-   width: 65vw;
-   height: 60vh;
+   display: block;
+   width: 65%;
+   height: 400px;
    background-color: white;
    margin: auto;
    background: url(..//predio.jpg) no-repeat;
    background-size: cover;
-   background-attachment: fixed;
+   background-position: center bottom;
+   display: block;
    border-radius: 10px;
-   
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);   
    }
 div#tudo {
     display: block;
     margin-top: 180px;
     position: absolute;
-    width: 65vw;
-    height: 63vh;
+    width: 65%;
+    height: 63%;
     background-color: white;
     background-size: cover;
     border-radius: 0px 0px 10px 10px;
     
+}
+
+#login {
+    width: 4vw;
+    
+}
+#senha {
+    width: 4vw;
 }
 
 h1 {
@@ -63,6 +74,10 @@ p{
     
 }
 
+
+.entrar:hover {
+    background-color: aquamarine;
+}
 
 .botoes {
     text-align: center;
